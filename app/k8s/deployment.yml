@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: deployment
+kind: Deployment
 metadata:
  name: nodejs-app
  spec:
@@ -17,4 +17,3 @@ metadata:
        image:  docker push ravik453/test/nodejs-app:latest
        ports:
         - containerPort: 3000
-
